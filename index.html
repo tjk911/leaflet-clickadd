@@ -39,6 +39,10 @@
           .setContent("You clicked at " + e.latlng.toString())
           .openOn(map);
 
+        var savedlocation = e.latLng;
+
+        window.location.href = "push.php?latlng=" + savedlocation;
+
         var marker = new L.marker(e.latlng).addTo(map);
 
       }
