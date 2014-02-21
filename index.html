@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="css/MarkerCluster.css">
     <script src="js/vendor/modernizr.js"></script>
     <script src="leaflet/leaflet.js"></script>
+    <script src="js/leaflet.markercluster-src.js"></script>
+    <script src="js/myitems.js"></script>
   </head>
   <body>
     
@@ -20,7 +24,7 @@
     </div>
     <!-- Map time -->
     <script type="text/javascript">
-      var map = L.map('map').setView([45.55654615614101, -94.1698962652344], 13);
+      var map = L.map('map').setView([45.55654615614101, -94.1698962652344], 13);      
 
       L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png',{
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
@@ -39,7 +43,22 @@
 
       }
 
-      map.on('click', onMapClick);
+      map.on('contextmenu', onMapClick);
+
+      var markers = L.markerClusterGroup();
+
+      var markerList = [];
+
+      for (var i = 0; i < myItems.length; i++) {
+        var a = myItems[i];
+        var title = a[2];
+        var marker = L.marker(L.latLng(a[0], a[1]), { title: title });
+        marker.bindPopup(title);
+        markerList.push(marker);
+      }
+
+      markers.addLayers(markerList);
+      map.addLayer(markers);
     </script>
     
     <script src="js/vendor/jquery.js"></script>
