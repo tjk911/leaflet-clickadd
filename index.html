@@ -39,7 +39,7 @@
           .setContent("You clicked at " + e.latlng.toString())
           .openOn(map);
 
-        var savedlocation = e.latLng;
+        var savedlocation = e.latLng.toString();
 
         window.location.href = "push.php?latlng=" + savedlocation;
 
