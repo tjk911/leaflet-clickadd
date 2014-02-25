@@ -120,6 +120,7 @@
           return false;
         }
         var dataString = 'name='+ name + '&email=' + email + '&description=' + description + '&lat=' + lat + '&lng=' + lng;
+        console.log(dataString);
         $.ajax({
           type: "POST",
           url: "push.php",
