@@ -1,9 +1,3 @@
-Early demo
-===========
-* A very basic demo can be found [here](http://www.sctimesapps.com/kaitest/leafletclickadd)
-* On mobile, tap-and-hold to add a marker
-
-
 Leaflet click-to-add-marker "app"
 ===========
 
@@ -23,9 +17,9 @@ Current status
 Far from being complete. Below is the general to-do-list.
 
 To Do
-* ~~Proper CloudMade tiles and API set-up~~
-* ~~Format styling of markercluster layers~~
+* Proper CloudMade tiles and API set-up
+* Format styling of markercluster layers
 * Record markers on either Google Docs spreadsheets or a proper database
-* ~~ Fire right-click events (currently left-click events)~~
-* ~~Right-click form for details and/or photo upload~~
+~~* Fire right-click events (currently left-click events)~~
+* Right-click form for details and/or photo upload
 * Photo upload and hosting and presentation
