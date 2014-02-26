@@ -26,6 +26,6 @@ To Do
 * ~~Proper CloudMade tiles and API set-up~~
 * ~~Format styling of markercluster layers~~
 * ~~Record markers on either Google Docs spreadsheets or a proper database~~
-* ~~ Fire right-click events (currently left-click events)~~
+* ~~Fire right-click events (currently left-click events)~~
 * ~~Right-click form for details and/or photo upload~~
 * Photo upload and hosting and presentation
