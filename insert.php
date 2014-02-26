@@ -14,7 +14,7 @@ if (!$dbselected)
 }
  
 if ($clean['lat']!='') {
-$sql="INSERT INTO potholes VALUES ('','".$clean['name']."','".$clean['email']."','".$clean['description']."','".$clean['lat']."','".$clean['lng']."',1,now())";
+$sql="INSERT INTO potholes VALUES ('','".$clean['name']."','".$clean['email']."','".$clean['description']."','".$clean['lat']."','".$clean['lng']."',0,now())";
 $result = mysql_query($sql);		
 }
 

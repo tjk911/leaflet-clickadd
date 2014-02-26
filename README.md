@@ -1,6 +1,6 @@
 Early demo
 ===========
-* A very basic demo can be found [here](http://www.sctimesapps.com/kaitest/leafletclickadd)
+* A working demo can be found [here](http://www.sctimesapps.com/kaitest/leafletclickadd)
 * On mobile, tap-and-hold to add a marker
 
 
@@ -16,6 +16,8 @@ Recent changes
 
 * Added markercluster plugin
 * Prepared markercluster layer for bulk loading of markers
+* Added form, switched to php and added relevant scripts for pushing/pulling from DBs
+* Changed marker default status to "off"
 
 Current status
 ===========
@@ -29,3 +31,4 @@ To Do
 * ~~Fire right-click events (currently left-click events)~~
 * ~~Right-click form for details and/or photo upload~~
 * Photo upload and hosting and presentation
+* Add admin tool to avoid trolls
