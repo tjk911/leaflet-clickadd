@@ -6,3 +6,7 @@
 #map {
 	height: 100vh;
 }
+
+.centered {
+	text-align: center;
+}

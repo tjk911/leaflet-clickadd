@@ -18,6 +18,7 @@ Recent changes
 * Prepared markercluster layer for bulk loading of markers
 * Added form, switched to php and added relevant scripts for pushing/pulling from DBs
 * Changed marker default status to "off"
+* Added login page and relevant scripts to post to DB
 
 Current status
 ===========
@@ -32,3 +33,4 @@ To Do
 * ~~Right-click form for details and/or photo upload~~
 * Photo upload and hosting and presentation
 * Add admin tool to avoid trolls
+* Work on session authentication and updating db
