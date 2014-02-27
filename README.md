@@ -19,6 +19,7 @@ Recent changes
 * Added form, switched to php and added relevant scripts for pushing/pulling from DBs
 * Changed marker default status to "off"
 * Added login page and relevant scripts to post to DB
+* Completed admin tool to delete & edit markers
 
 Current status
 ===========
@@ -32,5 +33,6 @@ To Do
 * ~~Fire right-click events (currently left-click events)~~
 * ~~Right-click form for details and/or photo upload~~
 * Photo upload and hosting and presentation
-* Add admin tool to avoid trolls
-* Work on session authentication and updating db
+* ~~Add admin tool to avoid trolls~~
+* ~~Work on session authentication and updating db~~
+* Style admin tool
