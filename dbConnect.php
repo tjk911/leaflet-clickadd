@@ -1,11 +1,11 @@
 <?php
 	//sql.php
-	$server = "sctkaitest.db.11227043.hostedresource.com";
-	$user = "sctkaitest";
-	$pass = "sRDa@Qs5!OFp3F";
+	$server = "#server";
+	$user = "#user";
+	$pass = "#pw";
 
 	$con = mysql_connect($server, $user, $pass); 
-	$dbselected = mysql_select_db("sctkaitest", $con);
+	$dbselected = mysql_select_db("#db", $con);
 
 	if (!$con)
 	{
