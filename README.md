@@ -7,7 +7,11 @@ Early demo
 Leaflet click-to-add-marker "app"
 ===========
 
-A simpler version, and arguably less secure and less verifiable, version of the "User submitted leaflet" app.
+A db-powered version of "User submitted leaflet" app, with an admin tool to monitor and manage the markers.
+
+Benefits include ease-of-use for the user end and possibility for it to be automatically added to the map (this is turned off in the demo to avoid people adding inappropriate language).
+
+However, requires a database set up. "User submitted leaflet" circumvents this by having the markers be pulled from a Google spreadsheet (useful for smaller news orgs with only a front end webdev).
 
 Goal is to provide a right-click-to-add-marker app and circumvent the need to type in address, this would allow users to pinpoint locations that may not be address-friendly (such as potholes on roads, they're not exactly easy to mark with an address).
 
