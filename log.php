@@ -1,6 +1,6 @@
 <?php
 	// include("dbConnect.php"); //Connect to SQL
-
+	session_start();
 	$username = $_POST['username']; //Username
 	$password = $_POST['password']; //Password
 	$server = "sctkaitest.db.11227043.hostedresource.com"; //Server
@@ -13,7 +13,8 @@
 	{
 	 	die('Could not connect: ' . mysql_error());
 	} else {
-		header("location: index.php"); //Redirect
+		$_SESSION['admin'] = "yes";
+		header("location:landing.php?view=admin"); //Redirect
 	}
 
 	//Create SELECT query
