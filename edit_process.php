@@ -23,7 +23,7 @@ $sql="UPDATE potholes SET name='".$clean['name']."',email='".$clean['email']."',
 
 $result = mysql_query($sql);
 
-header("location:landing.php?view=admin");
+header("location:login.php?view=admin");
 
 
 ?>

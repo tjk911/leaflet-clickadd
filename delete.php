@@ -22,7 +22,7 @@ $sql="DELETE FROM potholes WHERE id='".$cid."'";
 
 $result = mysql_query($sql);
 
-header("location:landing.php?view=admin");
+header("location:login.php?view=admin");
 
 
 ?>
