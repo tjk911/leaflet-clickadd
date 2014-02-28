@@ -15,6 +15,14 @@ However, requires a database set up. "User submitted leaflet" circumvents this b
 
 Goal is to provide a right-click-to-add-marker app and circumvent the need to type in address, this would allow users to pinpoint locations that may not be address-friendly (such as potholes on roads, they're not exactly easy to mark with an address).
 
+Setting up the DB
+===========
+* Set up your MySQL DB as usual
+* Note however that the current code is a single-sign on hardcoded admin account. 
+* There's no logout feature either. This might be changed at a later date, but isn't crucial to what my org requires at this point.
+* Add the DB info into temp.php. This info will be the credentials needed to login to the admin page.
+* Login is, by default, located in *appname*/login.php
+
 Recent changes
 ===========
 
@@ -40,3 +48,5 @@ To Do
 * ~~Add admin tool to avoid trolls~~
 * ~~Work on session authentication and updating db~~
 * Style admin tool
+* Add logout
+* Add user registration
