@@ -45,10 +45,17 @@ To Do
 * Style admin tool
 * Add logout
 * Add user registration
+
 ~~*Add admin tool to avoid trolls~~
+
 ~~*Work on session authentication and updating db~~
+
 ~~*Proper CloudMade tiles and API set-up~~
+
 ~~*Format styling of markercluster layers~~
+
 ~~*Record markers on either Google Docs spreadsheets or a proper database~~
+
 ~~*Fire right-click events (currently left-click events)~~
+
 ~~*Right-click form for details and/or photo upload~~
